@@ -1,0 +1,113 @@
+* {
+  font-family: 'Andika';
+}
+
+body {
+  color: black;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 1.2em;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/pigeon-background.JPEG");
+  background-color: #DDDDDD;
+}
+
+:focus {
+  border: 2px solid black;
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+h1 {
+  color: #8000FF;
+  font-size: 2em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+caption { 
+  margin:5px 0px;
+}
+
+p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+a {
+  font-size: 16px;
+  color: #B21F50;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+table {
+  border: 2px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: separate;
+  border-radius: 15px;
+}
+
+.colhead {
+  background-color: #7e0820;
+  color: white;
+  min-width: 100px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.rowhead {
+  border-top: 2px solid black;
+}
+
+td {
+  padding: 15px;
+  border-top: 2px solid black;
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #D1D1D1;
+}
+
+tr:hover {
+  background-color: rgb(126, 8, 32, .5)
+}
+
+
+thead tr:first-child th:first-child {
+  border-collapse: collapse;
+  border-top-left-radius: 15px;
+}
+
+thead tr:first-child th:last-child {
+  border-collapse: collapse;
+  border-top-right-radius: 15px;
+}
+
+tbody tr:last-child td:last-child {
+  border-collapse: collapse;
+  border-bottom-right-radius: 15px;
+}
+
+tbody tr:last-child th {
+  border-collapse: collapse;
+  border-bottom-left-radius: 15px;
+}
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  background:black;
+  text-align:center;
+  color: white;
+  min-height: 60px;
+}
